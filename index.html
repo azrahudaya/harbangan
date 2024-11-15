@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Harbangan Panjaitan</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="Tailwind CSS Saas Landing Page" />
+    <meta name="author" content="alithemes.com" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/imgs/logos/harbangan-logo.svg"
+    />
+    <!-- Vendor CSS -->
+    <link rel="stylesheet" href="assets/css/animate.min.css?v=2.0" />
+    <link rel="stylesheet" href="assets/css/slick.css?v=2.0" />
+    <!-- Template CSS -->
+    <link rel="stylesheet" href="assets/css/tailwind-built.css?v=2.0" />
+  </head>
+  <body class="bg-white text-body font-body">
+    <div class="main">
+      <!--Header-->
+      <header class="bg-transparent sticky-bar mt-4">
+        <div class="container bg-transparent">
+          <nav class="bg-transparent flex justify-between items-center py-3">
+            <a class="text-3xl font-semibold leading-none" href="index.html">
+              <img
+                class="h-10"
+                src="assets/imgs/logos/harbangan-logo.svg"
+                alt=""
+              />
+            </a>
+            <ul class="hidden lg:flex lg:items-center lg:w-auto lg:space-x-12">
+              <li class="pt-4 pb-4">
+                <a
+                  href="index.html"
+                  class="text-sm font-semibold text-blueGray-600 hover:text-blueGray-500"
+                  >Home</a
+                >
+              </li>
+              <li class="pt-4 pb-4">
+                <a
+                  href="#key-features"
+                  class="text-sm font-semibold text-blueGray-600 hover:text-blueGray-500"
+                  >About</a
+                >
+              </li>
+              <li class="pt-4 pb-4">
+                <a
+                  class="text-sm font-semibold text-blueGray-600 hover:text-blueGray-500"
+                  href="#contact-me"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+            <div class="hidden lg:block">
+              <a class="btn-primary hover-up-2" href="#">Ask the CV</a>
+            </div>
+            <div class="lg:hidden">
+              <button
+                class="navbar-burger flex items-center py-2 px-3 text-blue-500 hover:text-blue-700 rounded border border-blue-200 hover:border-blue-300"
+              >
+                <svg
+                  class="fill-current h-4 w-4"
+                  viewbox="0 0 20 20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <title>Mobile menu</title>
+                  <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+                </svg>
+              </button>
+            </div>
+          </nav>
+        </div>
+      </header>
+
+      <!--Mobile menu-->
+      <div class="hidden navbar-menu relative z-50 transition duration-300">
+        <div
+          class="navbar-backdrop fixed inset-0 bg-blueGray-800 opacity-25"
+        ></div>
+        <nav
+          class="fixed top-0 left-0 bottom-0 flex flex-col w-5/6 max-w-sm py-6 px-6 bg-white border-r overflow-y-auto transition duration-300"
+        >
+          <div class="flex items-center mb-8">
+            <a class="mr-auto text-3xl font-semibold leading-none" href="#">
+              <img
+                class="h-10"
+                src="assets/imgs/logos/harbangan-logo.svg"
+                alt=""
+              />
+            </a>
+            <button class="navbar-close">
+              <svg
+                class="h-6 w-6 text-blueGray-400 cursor-pointer hover:text-blue-500"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewbox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M6 18L18 6M6 6l12 12"
+                ></path>
+              </svg>
+            </button>
+          </div>
+          <div>
+            <ul class="mobile-menu">
+              <li class="mb-1 menu-item-has-children rounded-xl">
+                <a
+                  class="block p-4 text-sm text-blueGray-500 hover:bg-blue-50 hover:text-blue-500 rounded-xl"
+                  href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="mb-1 rounded-xl">
+                <a
+                  class="block p-4 text-sm text-blueGray-500 hover:bg-blue-50 hover:text-blue-500 rounded-xl"
+                  href="#key-features"
+                  >About Me</a
+                >
+              </li>
+              <li class="mb-1">
+                <a
+                  class="block p-4 text-sm text-blueGray-500 hover:bg-blue-50 hover:text-blue-500"
+                  href="#contact-me"
+                  >Contact Me</a
+                >
+              </li>
+            </ul>
+            <div class="mt-4 pt-6 border-t border-blueGray-100">
+              <a
+                class="block px-4 py-3 mb-3 text-xs text-center font-semibold leading-none bg-blue-400 hover:bg-blue-500 text-white rounded"
+                href="#"
+                >Ask the CV</a
+              >
+            </div>
+          </div>
+          <div class="mt-auto">
+            <p class="my-4 text-xs text-blueGray-400">
+              <span>Get in Touch</span>
+              <a class="text-blue-500 hover:text-blue-500 underline" href="#"
+                >bangan.dude@gmail.com</a
+              >
+            </p>
+            <a class="inline-block px-1" href="#">
+              <img src="assets/imgs/icons/facebook-blue.svg" alt="" />
+            </a>
+            <a class="inline-block px-1" href="#">
+              <img src="assets/imgs/icons/twitter-blue.svg" alt="" />
+            </a>
+            <a class="inline-block px-1" href="#">
+              <img src="assets/imgs/icons/instagram-blue.svg" alt="" />
+            </a>
+          </div>
+        </nav>
+      </div>
+      <!--Hero-->
+      <section
+        class="xl:bg-contain bg-top bg-no-repeat -mt-24 pt-24"
+        style="background-image: url('assets/imgs/backgrounds/intersect.svg')"
+      >
+        <div class="container px-4 mx-auto">
+          <div class="pt-12 text-center">
+            <div class="max-w-2xl mx-auto mb-8">
+              <h2
+                class="text-3xl lg:text-5xl lg:leading-normal mb-4 font-bold font-heading wow animate__animated animate__fadeIn"
+              >
+                Harbangan Panjaitan <br />Creative
+                <span class="text-blue-500">and Passionate Designer</span>
+              </h2>
+              <p
+                class="text-blueGray-400 leading-relaxed wow animate__animated animate__fadeIn"
+              >
+                <strong class="text-blue-500">Harbangan</strong>, a creative
+                designer with a strong background in
+                <span
+                  class="typewrite d-inline text-brand"
+                  data-period="3000"
+                  data-type='["Photography", "user interface design (GUI)", "user experience design (UED)"]'
+                ></span>
+              </p>
+            </div>
+            <div>
+              <a
+                class="btn-white wow animate__animated animate__fadeInUp hover-up-2"
+                data-wow-delay=".3s"
+                href="#how-we-work"
+                >Let’s Take a Closer Look
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="relative max-w-6xl mt-16 md:mt-8 mb-8 mx-auto">
+          <img src="assets/imgs/elements/pattern.png" alt="" />
+          <div
+            class="absolute"
+            style="top: 9%; left: 14%; width: 72%; height: 66%"
+          >
+            <img
+              class="jump rounded wow animate__animated animate__fadeInUp"
+              src="assets/imgs/placeholders/dashboard.png"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="container px-4 mx-auto">
+          <div class="flex flex-wrap justify-between pt-8 pb-16">
+            <div
+              class="hover-up-5 flex w-1/2 lg:w-auto py-4 wow animate__animated animate__fadeInUp"
+              data-wow-delay=".2s"
+            >
+              <div
+                class="flex justify-center items-center bg-blueGray-50 text-blue-500 rounded-xl h-12 w-12 sm:h-20 sm:w-20"
+              >
+                <svg
+                  class="w-8 h-8"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"
+                  ></path>
+                </svg>
+              </div>
+              <div class="sm:py-2 ml-2 sm:ml-6">
+                <span class="sm:text-2xl font-bold font-heading">+ </span>
+                <span class="sm:text-2xl font-bold font-heading count">20</span>
+                <p class="text-xs sm:text-base text-blueGray-400">Client</p>
+              </div>
+            </div>
+            <div
+              class="hover-up-5 flex w-1/2 lg:w-auto py-4 wow animate__animated animate__fadeInUp"
+              data-wow-delay=".4s"
+            >
+              <div
+                class="flex justify-center items-center bg-blueGray-50 text-blue-500 rounded-xl h-12 w-12 sm:h-20 sm:w-20"
+              >
+                <svg
+                  class="w-8 h-8"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M7 12l3-3 3 3 4-4M8 21l4-4 4 4M3 4h18M4 4h16v12a1 1 0 01-1 1H5a1 1 0 01-1-1V4z"
+                  ></path>
+                </svg>
+              </div>
+              <div class="sm:py-2 ml-2 sm:ml-6">
+                <span class="sm:text-2xl font-bold font-heading">+ </span>
+                <span class="sm:text-2xl font-bold font-heading count">50</span>
+                <span class="sm:text-2xl font-bold font-heading"> k </span>
+                <p class="text-xs sm:text-base text-blueGray-400">
+                  Completed Projects
+                </p>
+              </div>
+            </div>
+            <div
+              class="hover-up-5 flex w-1/2 lg:w-auto py-4 wow animate__animated animate__fadeInUp"
+              data-wow-delay=".6s"
+            >
+              <div
+                class="flex justify-center items-center bg-blueGray-50 text-blue-500 rounded-xl h-12 w-12 sm:h-20 sm:w-20"
+              >
+                <svg
+                  class="w-8 h-8"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"
+                  ></path>
+                </svg>
+              </div>
+              <div class="sm:py-2 ml-2 sm:ml-6">
+                <span class="sm:text-2xl font-bold font-heading">+ </span>
+                <span class="sm:text-2xl font-bold font-heading count">2</span>
+                <p class="text-xs sm:text-base text-blueGray-400">
+                  Years Experience
+                </p>
+              </div>
+            </div>
+            <div
+              class="hover-up-5 flex w-1/2 lg:w-auto py-4 wow animate__animated animate__fadeInUp"
+              data-wow-delay=".8s"
+            >
+              <div
+                class="flex justify-center items-center bg-blueGray-50 text-blue-500 rounded-xl h-12 w-12 sm:h-20 sm:w-20"
+              >
+                <svg
+                  class="w-8 h-8"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"
+                  ></path>
+                </svg>
+              </div>
+              <div class="sm:py-2 ml-2 sm:ml-6">
+                <span class="sm:text-2xl font-bold font-heading">+ </span>
+                <span class="sm:text-2xl font-bold font-heading count">30</span>
+                <p class="text-xs sm:text-base text-blueGray-400">Fresh Idea</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--Features-->
+      <section
+        class="py-12 md:py-16 lg:py-32 overflow-x-hidden"
+        id="key-features"
+      >
+        <div class="container px-4 mx-auto">
+          <div class="flex flex-wrap lg:flex-nowrap">
+            <div class="w-full lg:w-1/2">
+              <div
+                class="lg:py-6 lg:pr-32 wow animate__animated animate__fadeIn"
+                data-wow-delay=".3s"
+              >
+                <div class="mb-4">
+                  <h2
+                    class="text-4xl mt-5 font-bold font-heading wow animate__animated animate__fadeInUp"
+                    data-wow-delay=".3s"
+                  >
+                    About Me
+                  </h2>
+                </div>
+
+                <div
+                  class="flex items-start py-4 wow animate__animated animate__fadeInUp"
+                  data-wow-delay=".9s"
+                >
+                  <div class="w-8 mr-5 text-blue-500">
+                    <svg
+                      class="w-6 h-6"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div>
+                    <h3 class="mb-2 text-xl font-semibold font-heading">
+                      Harbangan Panjaitan
+                    </h3>
+                    <p class="text-blueGray-400 leading-loose">
+                      Harbangan Panjaitan is a creative designer with a strong
+                      background in photography, user interface (UI) design, and
+                      user experience (UX) design. Known for his attention to
+                      detail, he combines aesthetics with functionality to
+                      create intuitive and visually engaging designs. In
+                      addition to design, Harbangan has experience in web and
+                      application development, giving him a well-rounded
+                      perspective on digital product creation. He is currently a
+                      Computer Science student at Gunadarma University.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="relative w-full lg:w-1/2 my-12 lg:my-0">
+              <div
+                class="wow animate__animated animate__fadeInRight"
+                data-wow-delay=".5s"
+              >
+                <img
+                  class="jump relative mx-auto rounded-xl w-full z-10"
+                  src="assets\imgs\placeholders\harbangan.jpeg"
+                  alt=""
+                />
+                <img
+                  class="absolute top-0 left-0 w-40 -ml-12 -mt-12"
+                  src="assets/imgs/elements/blob-tear.svg"
+                  alt=""
+                />
+                <img
+                  class="absolute bottom-0 right-0 w-40 -mr-12 -mb-12"
+                  src="assets/imgs/elements/blob-tear.svg"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="py-20 bg-blueGray-50" id="how-we-work">
+        <div class="container px-4 mx-auto">
+          <div
+            class="flex flex-wrap items-center justify-between max-w-2xl lg:max-w-full mb-12"
+          >
+            <div class="w-full lg:w-1/2 mb-4 lg:mb-0">
+              <h2
+                class="text-3xl md:text-4xl font-bold font-heading wow animate__animated animate__fadeInDown"
+              >
+                <span class="text-blue-500">Harbangan</span> - Your Partner for
+                Business Success
+              </h2>
+            </div>
+            <div class="w-full lg:w-1/2 lg:pl-16">
+              <p
+                class="text-blueGray-400 leading-loose wow animate__animated animate__fadeInUp"
+              >
+                Every step I take is focused on delivering tangible progress for
+                your business, from project initiation to optimal market
+                development.
+              </p>
+            </div>
+          </div>
+          <div class="flex flex-wrap -mx-3 -mb-6 text-center">
+            <div
+              class="hover-up-5 w-full md:w-1/2 lg:w-1/3 px-3 mb-6 wow animate__animated animate__fadeInUp"
+              data-wow-delay=".3s"
+            >
+              <div class="p-12 bg-white shadow rounded">
+                <div
+                  class="flex w-12 h-12 mx-auto items-center justify-center text-blue-800 font-bold font-heading bg-blue-200 rounded-full"
+                >
+                  1
+                </div>
+                <img
+                  class="h-48 mx-auto my-4"
+                  src="assets/imgs/illustrations/eating.svg"
+                  alt=""
+                />
+                <h3 class="mb-2 font-bold font-heading">
+                  Project Initialization
+                </h3>
+                <p class="text-sm text-blueGray-400 leading-relaxed">
+                  Guiding your project from concept to reality with precision
+                  and care. In every phase, I ensure that each aspect aligns
+                  with your vision.
+                </p>
+              </div>
+            </div>
+            <div
+              class="hover-up-5 w-full md:w-1/2 lg:w-1/3 px-3 mb-6 wow animate__animated animate__fadeInUp"
+              data-wow-delay=".5s"
+            >
+              <div class="p-12 bg-white shadow rounded">
+                <div
+                  class="flex w-12 h-12 mx-auto items-center justify-center text-blue-800 font-bold font-heading bg-blue-200 rounded-full"
+                >
+                  2
+                </div>
+                <img
+                  class="h-48 mx-auto my-4"
+                  src="assets/imgs/illustrations/space.svg"
+                  alt=""
+                />
+                <h3 class="mb-2 font-bold font-heading">Creative Solutions</h3>
+                <p class="text-sm text-blueGray-400 leading-relaxed">
+                  Offering innovative ideas tailored to the unique needs of your
+                  business. I am here to provide fresh perspectives to elevate
+                  your business.
+                </p>
+              </div>
+            </div>
+            <div class="hover-up-5 w-full lg:w-1/3 px-3 mb-6">
+              <div
+                class="p-12 bg-white shadow rounded wow animate__animated animate__fadeInUp"
+                data-wow-delay=".7s"
+              >
+                <div
+                  class="flex w-12 h-12 mx-auto items-center justify-center text-blue-800 font-bold font-heading bg-blue-200 rounded-full"
+                >
+                  3
+                </div>
+                <img
+                  class="h-48 mx-auto my-4"
+                  src="assets/imgs/illustrations/tasks.svg"
+                  alt=""
+                />
+                <h3 class="mb-2 font-bold font-heading">Market Development</h3>
+                <p class="text-sm text-blueGray-400 leading-relaxed">
+                  Expanding your business reach with strategic insight and
+                  persistence. With deep market analysis, I make sure every step
+                  strengthens your position in the market.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="py-20 bg-top bg-no-repeat"
+        style="background-image: url('assets/imgs/elements/blob.svg')"
+        id="contact-me"
+      >
+        <div class="container px-4 mx-auto">
+          <div class="relative py-20 px-4 lg:p-20">
+            <div class="max-w-lg mx-auto text-center">
+              <h2
+                class="mb-4 text-3xl lg:text-4xl font-bold font-heading wow animate__animated animate__fadeInUp"
+              >
+                <span class="text-blue-500">Contact Me</span> for Updates
+              </h2>
+              <p
+                class="mb-8 text-blueGray-400 wow animate__animated animate__fadeInUp"
+                data-wow-delay=".3s"
+              >
+                Let's stay connected! I’m here to share valuable insights and
+                exclusive offers that can support your business journey. Your
+                privacy is always my priority.
+              </p>
+              <div
+                class="p-4 bg-white rounded-lg flex flex-wrap max-w-md mx-auto wow animate__animated animate__fadeInUp"
+                data-wow-delay=".5s"
+              >
+                <div
+                  class="flex w-full md:w-2/3 px-3 mb-3 md:mb-0 md:mr-6 bg-blueGray-100 rounded"
+                >
+                  <svg
+                    class="h-6 w-6 my-auto text-blueGray-500"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewbox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"
+                    ></path>
+                    <path
+                      d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"
+                    ></path>
+                  </svg>
+                  <input
+                    class="w-full pl-3 py-4 text-xs text-blueGray-400 font-semibold leading-none bg-blueGray-100 outline-none"
+                    type="text"
+                    placeholder="Type your e-mail"
+                  />
+                </div>
+                <button
+                  class="w-full md:w-auto py-4 px-8 text-xs text-white font-semibold leading-none bg-blue-400 hover:bg-blue-500 rounded"
+                  type="button"
+                  onclick="window.location.href='https://wa.me/628158883565?text=Halo%20selamat%20siang,%20saya%20tertarik%20untuk%20mengetahui%20lebih%20lanjut%20tentang%20layanan%20Anda.%20Mohon%20informasi%20lebih%20lanjut.%20Terima%20kasih!'"
+                >
+                  Contact
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="py-20">
+        <div
+          class="container px-4 mx-auto wow animate__animated animate__fadeIn"
+          data-wow-delay=".3s"
+        >
+          <div
+            class="flex flex-wrap mb-12 lg:mb-20 -mx-3 text-center lg:text-left"
+          >
+            <div class="w-full lg:w-1/5 px-3 mb-6 lg:mb-0">
+              <a
+                class="inline-block mx-auto lg:mx-0 text-3xl font-semibold leading-none"
+                href="index.html"
+              >
+                <img
+                  class="h-10"
+                  src="assets/imgs/logos/harbangan-logo.svg"
+                  alt=""
+                />
+              </a>
+            </div>
+            <div class="w-full lg:w-2/5 px-3 mb-8 lg:mb-0">
+              <p
+                class="max-w-md mx-auto lg:max-w-full lg:mx-0 lg:pr-32 lg:text-lg text-blueGray-400 leading-relaxed"
+              >
+                Harbangan Always Helping You
+              </p>
+            </div>
+            <div class="w-full lg:w-1/5 px-3 mb-8 lg:mb-0">
+              <p
+                class="mb-2 lg:mb-4 lg:text-lg font-bold font-heading text-blueGray-800"
+              >
+                Address
+              </p>
+              <p class="lg:text-lg text-blueGray-400">Jakarta, Indonesia</p>
+            </div>
+            <div class="w-full lg:w-1/5 px-3">
+              <p
+                class="mb-2 lg:mb-4 lg:text-lg font-bold font-heading text-blueGray-800"
+              >
+                Contacts
+              </p>
+              <p class="lg:text-lg text-blueGray-400">+62 815 8883 565</p>
+              <p class="lg:text-lg text-blueGray-400">bangan.dude@gmail.com</p>
+            </div>
+          </div>
+          <div
+            class="flex flex-col lg:flex-row items-center lg:justify-between"
+          >
+            <p class="text-sm text-blueGray-400">
+              &copy; 2024. All rights reserved. Designed by Harbangan Panjaitan
+            </p>
+            <div class="order-first lg:order-last -mx-2 mb-4 lg:mb-0">
+              <a
+                class="inline-block px-2"
+                href="https://www.instagram.com/xrp.io"
+              >
+                <img src="assets/imgs/icons/facebook-blue.svg" alt="" />
+              </a>
+              <a
+                class="inline-block px-2"
+                href="https://www.instagram.com/xrp.io"
+              >
+                <img src="assets/imgs/icons/instagram-blue.svg" alt="" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- End .main -->
+
+    <!-- Preloader Start -->
+    <div id="preloader-active">
+      <div class="preloader flex-1 content-center">
+        <div class="logo absolute inset-y-2/4 jump">
+          <h1 class="text-lg font-semibold">Welcome</h1>
+        </div>
+      </div>
+    </div>
+    <!--Import Vendor Js-->
+    <script src="assets/js/vendor/modernizr-3.6.0.min.js"></script>
+    <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/vendor/waypoints.js"></script>
+    <script src="assets/js/vendor/counterup.js"></script>
+    <script src="assets/js/vendor/slick.js"></script>
+    <script src="assets/js/vendor/wow.js"></script>
+    <script src="assets/js/vendor/scrollup.js"></script>
+    <script src="assets/js/vendor/smooth.js"></script>
+    <script src="assets/js/vendor/textType.js"></script>
+    <script src="assets/js/vendor/mobile-menu.js"></script>
+    <script src="assets/js/main.js?v=2.0"></script>
+  </body>
+</html>
